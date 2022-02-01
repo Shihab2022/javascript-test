@@ -100,3 +100,25 @@
 //     }
 // }
 // putValue(300, 500, 250);
+
+
+// ============output small / big number in three number  using Math.max============
+
+
+// for max number
+
+
+// let num1 = 5000;
+// let num2 = 100;
+// let num3 = 400;
+// let maxNumber = Math.max(num1, num2, num3);
+// console.log('lergse number is ', maxNumber);
+
+
+// for min number
+
+// let num1 = 5000;
+// let num2 = 100;
+// let num3 = 400;
+// let minNumber = Math.min(num1, num2, num3);
+// console.log('lowest number is ', minNumber);
