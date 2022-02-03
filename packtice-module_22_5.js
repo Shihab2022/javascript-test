@@ -66,17 +66,75 @@ console.log(value);
 */
 
 
-/***********************  (12) change object property******************/
+/***********************  (12) change object property    problem******************/
 
-education = [
+/*education = [
     { examName: 'PSE', bord: 'rajshahi', year: 2011, gpa: 4.41 },
     { examName: 'JDC', bord: 'madrasah', year: 2015, gpa: 4.82 },
     { examName: 'DHAKIL', bord: 'madrasah', year: 2017, gpa: 4.61 },
     { examName: 'HSC', bord: 'rajshahi', year: 2019, gpa: 4.42 },
 
 ]
+console.log(education.examName);
+let txt = education[0];
+for (const eName of education) {
+    txt = education.examName;
+    console.log(txt);
+}
+
+console.log(txt);*/
 
 
 
 
+/*********************** special (1) create a function and feet transfer to inch******************/
+
+/*function feetToInch(feet) {
+    let inch = feet / 12;
+    return inch;
+}
+let putValue = feetToInch(25);
+console.log(putValue);
+*/
+
+
+/*********************** specisl (2)create a function  centimeter To Meter ******************/
+/*function centimeterToMeter(centimeter) {
+    metter = centimeter / 100;
+    return metter;
+}
+let putValue = centimeterToMeter(200);
+console.log(putValue);
+*/
+
+
+
+/*********************** special (3) create a function and paper Requirements ******************/
+
+/*function paperRequirements(book1, book2, book3) {
+    let book1Paper = 100;
+    let book2Paper = 200;
+    let book3Paper = 300;
+
+    let allPaperForBook1 = book1Paper * book1;
+    let allPaperForBook2 = book2Paper * book2;
+    let allPaperForBook3 = book3Paper * book3;
+
+    let sumAllPaper = allPaperForBook1 + allPaperForBook2 + allPaperForBook3;
+    return sumAllPaper;
+}
+
+let myBook = paperRequirements(3, 2, 1);
+console.log(myBook); 
+*/
+
+
+
+
+
+
+
+
+/***********************  (10) print the value gater than 80 and its position******************/
+/***********************  (10) print the value gater than 80 and its position******************/
 /***********************  (10) print the value gater than 80 and its position******************/
