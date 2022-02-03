@@ -148,23 +148,27 @@ console.log(bigName);*/
 
 /*********************** special (5) write a array and show that who valus geter than 0 ******************/
 
-let allNumbers = [1, 2, 3, 0, 4, 0, 5, 6, 7, 55, 62, 4, 2, 4535, -1, -3, -455, 45, 45, 0, 5454, 54, 4, -754, 0]
+let allNumbers = [1, 2, 3, 0, 4, 5, 6, 7, 55, 62, 4, 2, 4535, -1, -3, -455, 45, 45, 0, 5454, 54, 4, -754, 0]
 
 
-function bestFriend(numbers) {
+/*function bestFriend(numbers) {
     let newArray = [];
     for (i = 0; i < numbers.length; i++) {
         const element = numbers[i];
         if (element >= 0) {
             newArray.push(element);
+            //ay khanay jodi if ay jai taholay 0 soman ba 0 thakay boro holay print korbay but 0 thakay choto hoay galay else ay say function kay bbreak ar maddo may bondho korY dibay
+        } else {
+            break;
         }
+
     }
     return newArray;
 }
 let bigName = bestFriend(allNumbers);
 console.log(bigName);
 
-
+*/
 
 
 
