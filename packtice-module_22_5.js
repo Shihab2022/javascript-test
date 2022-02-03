@@ -129,12 +129,23 @@ console.log(myBook);
 */
 
 
+/*********************** special (4) create a function and value an array  and name bestFriend******************/
+
+/*let allFriends = ['shihab', 'shiraj', 'saifur', 'samad', 'robiul', 'shamsujjaman', 'kafi']
+
+function bestFriend(friends) {
+    let newarray = friends[0];
+    for (const friend of friends) {
+        if (friend.length > newarray.length) {
+            newarray = friend;
+        }
+    }
+    return newarray;
+}
+let bigName = bestFriend(allFriends);
+console.log(bigName);*/
 
 
 
-
-
-
-/***********************  (10) print the value gater than 80 and its position******************/
 /***********************  (10) print the value gater than 80 and its position******************/
 /***********************  (10) print the value gater than 80 and its position******************/
