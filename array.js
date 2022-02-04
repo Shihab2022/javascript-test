@@ -9,6 +9,21 @@
 // console.log(sum);
 
 
+//gor of all numbers in an arrayTotal
+
+
+/*let numbers = [10, 1025, 10, 36, 34, 87, 26, 45, 59, 57, 100, 5, 45, 1, 145]
+let sum = 0;
+for (let i = 0; i < numbers.length; i++) {
+    const element = numbers[i];
+    sum = sum + element
+}
+
+let gor = sum / numbers.length;
+console.log(gor)*/
+
+
+
 // sum of  all numbers in an array by function
 
 
