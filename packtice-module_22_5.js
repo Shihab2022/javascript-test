@@ -68,21 +68,28 @@ console.log(value);
 
 /***********************  (12) change object property    problem******************/
 
-/*education = [
+const education = [
     { examName: 'PSE', bord: 'rajshahi', year: 2011, gpa: 4.41 },
-    { examName: 'JDC', bord: 'madrasah', year: 2015, gpa: 4.82 },
-    { examName: 'DHAKIL', bord: 'madrasah', year: 2017, gpa: 4.61 },
-    { examName: 'HSC', bord: 'rajshahi', year: 2019, gpa: 4.42 },
+    // { examName: 'JDC', bord: 'madrasah', year: 2015, gpa: 4.82 },
+    // { examName: 'DHAKIL', bord: 'madrasah', year: 2017, gpa: 4.61 },
+    // { examName: 'HSC', bord: 'rajshahi', year: 2019, gpa: 4.42 },
 
 ]
-console.log(education.examName);
-let txt = education[0];
-for (const eName of education) {
-    txt = education.examName;
-    console.log(txt);
-}
 
-console.log(txt);*/
+
+
+
+
+
+
+// console.log(education.examName);
+// let txt = education[0];
+// for (const eName of education) {
+//     txt = education.examName;
+//     console.log(txt);
+// }
+
+// console.log(txt);
 
 
 
@@ -160,7 +167,7 @@ console.log(bigName);*/
 }
             //ay khanay jodi if ay jai taholay 0 soman ba 0 thakay boro holay print korbay but 0 thakay choto hoay galay else ay say function kay bbreak ar maddo may bondho korY dibay
 
-            
+
          else {
             break;
         }
